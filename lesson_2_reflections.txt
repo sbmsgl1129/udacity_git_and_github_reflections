@@ -11,3 +11,8 @@ repository? What value do you think it offers?
   not wish to commit yet or do it in next commit as there are multiple logical
   changes being done. So it helps us in giving control of which files to commit,
   so that we can do one logical change per commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+  Just add only those files which represents one logical change. Then u can go
+  ahead and commit it. U can do repeatedly for all the changes.
