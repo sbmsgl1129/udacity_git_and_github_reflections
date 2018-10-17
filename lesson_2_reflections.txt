@@ -28,3 +28,8 @@ history organized? How would branches help?
     having a branch in the first place will separate the main change from new
     change and we can later merge once the new changes are properly tested and
     put in production.
+
+How do the diagrams help you visualize the branch structure?
+  A picture says more than 1000 words. I think that summarizes it. But to
+  tell more, it just removes all the unnecceary clutter and gives nice
+  overview.
