@@ -44,3 +44,10 @@ the diagram the way we do?
  we refer to branch, we are just referring to a label. So in the merge commit,
  we will merge the changes accordingly and to represent the history, we will
  point that commit to previous two branches.
+
+What are the pros and cons of Git.s automatic merging vs. always doing merges
+manually?
+  Automatic merging helps as we don't have to manually go over all the files
+  which are changed, see the differences and merge them. But there are cases,
+  where it can't resolve what to merge. There it is advisable to do manual
+  merging bcoz choosing one is difficult and git may screw up.
