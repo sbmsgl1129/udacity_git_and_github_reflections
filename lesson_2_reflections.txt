@@ -16,3 +16,15 @@ How can you use the staging area to make sure you have one commit per logical
 change?
   Just add only those files which represents one logical change. Then u can go
   ahead and commit it. U can do repeatedly for all the changes.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+  - Say u have released something - which is current commit in master. That is
+    stable version of ur software. Then if u started making some changes on
+    that instead on an another branch, it would be difficult for u to go back
+    to that commit when something has to be fixed on top of that. Even if
+    there is a way to go back (like using tags), we will be discarding the new
+    changes or we have to save it somewhere and then bring them back. Instead
+    having a branch in the first place will separate the main change from new
+    change and we can later merge once the new changes are properly tested and
+    put in production.
