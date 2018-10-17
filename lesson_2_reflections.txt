@@ -33,3 +33,14 @@ How do the diagrams help you visualize the branch structure?
   A picture says more than 1000 words. I think that summarizes it. But to
   tell more, it just removes all the unnecceary clutter and gives nice
   overview.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+ When we merge two branches, we create a new commit which will be pointing to
+ previous two heads of branches. The branch in which the changes are merged
+ into will point to this commit. The way it is being represented in the diagram
+ the way it is because of the above reason. We should understand that when we
+ are merging branches we are not losing commits in the other branch. Also when
+ we refer to branch, we are just referring to a label. So in the merge commit,
+ we will merge the changes accordingly and to represent the history, we will
+ point that commit to previous two branches.
