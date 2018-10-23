@@ -3,3 +3,10 @@ When would you want to use a remote repository rather than keeping all your work
   Other uses include that I could work from some other machine (like my home-pc) to do changes.
   But the most important I guess is collaboration among various folks working on the same project.
   By having a centralised repo on github, it would be easy to get changes of my peers.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+  The same reason u dont want remote to be updated whatever is there in local.
+  Probably there are changes which u have in remote for some purpose but not
+  useful or not needed. So if we let git decide it, these unnecessary changes
+  will clutter our repo.
