@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  The simple answer is, it could act as a backup if I lose my work on a local machine.
+  Other uses include that I could work from some other machine (like my home-pc) to do changes.
+  But the most important I guess is collaboration among various folks working on the same project.
+  By having a centralised repo on github, it would be easy to get changes of my peers.
