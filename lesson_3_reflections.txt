@@ -10,3 +10,23 @@ automatically stay up-to-date with your remote repository?
   Probably there are changes which u have in remote for some purpose but not
   useful or not needed. So if we let git decide it, these unnecessary changes
   will clutter our repo.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+  Fork  - Cloning a repo from github to github
+  Clone - Copying a repo from github to local
+  Branch - Creating a label which will follow another line of commits in a
+           repo
+  I would use fork when I want to work on a project started by some other
+  person and add my changes to it and proabably collaborate with some other
+  folks. Even if I am working alone, I would not clone instead bcoz if I want
+  to have another remote - different from where I cloned it would be to push
+  my changes - I need not create another repo on github and push. Though one
+  could do that as Sarah said - by forking we can give due credit to
+  prinicipal owner of the project.
+
+  Branching is not related to fork/clone, it something I would do when I want
+  to work on a new or experimental feature or a bug fix - I mean something
+  which wont clutter my master - which is the current working version of my repo.
+
+
