@@ -29,4 +29,15 @@ use one instead of another?
   to work on a new or experimental feature or a bug fix - I mean something
   which wont clutter my master - which is the current working version of my repo.
 
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+  First thing come into mind is that we can run "git status" and "git log"
+  command without any internet connection which can be very helpful to know
+  about remote status when we are in a "remote" area(pun intended).
+  Second while pulling the changes it becomes easy where to add the stuff.
+  Like if it is an out-of-order state, we don't lose the commit which is done
+  by us not pushed and we can distinguish what is extra there from remote
+  which is then merged.
+  Third we could have fast-forward merges. Although it could be done without
+  it, it is a nice way.
 
