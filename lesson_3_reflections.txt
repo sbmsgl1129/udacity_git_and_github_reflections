@@ -41,3 +41,22 @@ stored locally?
   Third we could have fast-forward merges. Although it could be done without
   it, it is a nice way.
 
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+  Its a difficult to think as we now use git/github so much.
+  
+  Obviously having a central repo is important bcoz I dont have to be
+  physically present where my other collaborators are. If not, I have to send
+  back and forth my changes in an email or something to do all sort of things
+  like merging the changes, reviewing the changes etc. All those things are
+  abstracted away by GITHUB and I can comment, review, get the changes easily
+  without any hassle. Also auto checking whether pull requests can be merged
+  is a great feature.
+
+  As for what would be easier, probably I dont have to do extra stuff like
+  creating pull-requets, pusing, pulling data and maybe some other meta stuff 
+  that I have to do.
+
+  But I guess thats ok bcoz the pros outweighs whatever cons I could think of
+  and they are not that significant in the long-run.
+
