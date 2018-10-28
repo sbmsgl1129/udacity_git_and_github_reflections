@@ -60,3 +60,20 @@ and what would be harder?
   But I guess thats ok bcoz the pros outweighs whatever cons I could think of
   and they are not that significant in the long-run.
 
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+    The main idea of having a different branch is to not clutter master or to
+    have changes in it which is stable. If we wish include any changes, we
+    will create another branch, get it reviewed (or somethimes pushed to prod)
+    and then when everything is ok - merged into master. By following
+    different branch we can have our master clean. Obviously this is required
+    when there is collaboration and multiple folks will be working on multiple
+    features etc. Couple of other things are discussed in reflection question on branches.
+
+    Now the case in which making changes to master directly is good. I can't
+    think of any case - probably bcoz of Einstellung. Even for a single
+    developer on a project - it would be nice to have different branches so he
+    can work on multiple ideas and scrap any idea if he doent like it instead
+    of detached HEAD stuff. But probably if it is not a big project and it
+    will pretty much go forward rather than fixing something in the previous
+    versions, then having single master is good enough I guess.
